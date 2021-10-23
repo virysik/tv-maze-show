@@ -28,7 +28,8 @@ export const Btn = styled.button`
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 
-  :hover {
+  :hover,
+  :focus {
     transform: scale(1.1);
   }
 `
