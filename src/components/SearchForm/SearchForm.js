@@ -1,14 +1,24 @@
-export default function SearchForm() {
+import { Input, Btn } from './SearchForm.styled'
+
+export default function SearchForm({ onFormSubmit }) {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const { target } = e
+    const query = target.elements.query.value.toLowerCase()
+    onFormSubmit(query)
+    target.reset()
+  }
+
   return (
-    <form>
-      <input
+    <form onSubmit={handleSubmit}>
+      <Input
         type="text"
         name="query"
         placeholder="Please type a query..."
         autoComplete="off"
         autoFocus="on"
       />
-      <button type="submit">Search</button>
+      <Btn type="submit">Search</Btn>
     </form>
   )
 }
