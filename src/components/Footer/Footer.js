@@ -1,7 +1,17 @@
+import { FaRegHeart } from 'react-icons/fa'
+import { Container, Ftr, P, Span } from './Footer.styled'
+
 export default function Footer() {
   return (
-    <footer>
-      <p>With love for the TV-shows</p>
-    </footer>
+    <Ftr>
+      <Container>
+        <P>
+          With love for tv shows
+          <Span>
+            <FaRegHeart />
+          </Span>
+        </P>
+      </Container>
+    </Ftr>
   )
 }
