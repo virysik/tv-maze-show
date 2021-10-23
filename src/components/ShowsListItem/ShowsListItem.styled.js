@@ -12,6 +12,13 @@ export const Li = styled.li`
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+
+  :hover,
+  :focus {
+    box-shadow: 0px 8px 43px rgba(255, 107, 1, 0.6);
+  }
 `
 
 export const Img = styled.img`
@@ -46,18 +53,4 @@ export const DescrWrapper = styled.div`
 export const Span = styled.span`
   display: flex;
   align-items: center;
-`
-export const LinkWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-`
-export const Link = styled.a`
-  color: inherit;
-  transform: scale(1);
-  transition: all 0.2s ease-in-out;
-
-  :hover {
-    transform: scale(1.1);
-  }
 `
