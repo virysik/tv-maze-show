@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tv-maze-show/static/css/main.46c89b81.chunk.css",
+    "main.js": "/tv-maze-show/static/js/main.7f49be9f.chunk.js",
+    "main.js.map": "/tv-maze-show/static/js/main.7f49be9f.chunk.js.map",
+    "runtime-main.js": "/tv-maze-show/static/js/runtime-main.daeb2539.js",
+    "runtime-main.js.map": "/tv-maze-show/static/js/runtime-main.daeb2539.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/tv-maze-show/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.b45c9c0a.chunk.js": "/tv-maze-show/static/js/2.b45c9c0a.chunk.js",
+    "static/js/2.b45c9c0a.chunk.js.map": "/tv-maze-show/static/js/2.b45c9c0a.chunk.js.map",
+    "static/js/3.5fe56adc.chunk.js": "/tv-maze-show/static/js/3.5fe56adc.chunk.js",
+    "static/js/3.5fe56adc.chunk.js.map": "/tv-maze-show/static/js/3.5fe56adc.chunk.js.map",
+    "index.html": "/tv-maze-show/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/tv-maze-show/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.46c89b81.chunk.css.map": "/tv-maze-show/static/css/main.46c89b81.chunk.css.map",
+    "static/js/2.b45c9c0a.chunk.js.LICENSE.txt": "/tv-maze-show/static/js/2.b45c9c0a.chunk.js.LICENSE.txt",
+    "static/media/img8.ae772620.jpg": "/tv-maze-show/static/media/img8.ae772620.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daeb2539.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.b45c9c0a.chunk.js",
+    "static/css/main.46c89b81.chunk.css",
+    "static/js/main.7f49be9f.chunk.js"
+  ]
+}
