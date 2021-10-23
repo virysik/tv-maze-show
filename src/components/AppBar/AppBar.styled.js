@@ -24,6 +24,7 @@ export const Header = styled.header`
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
+
   color: var(--primary-color);
   background-image: url(${defaultImg});
   background-position: 50% 50%;
