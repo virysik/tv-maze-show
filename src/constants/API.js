@@ -1,3 +1,3 @@
 export const API = {
-  BASE_URL: 'https://api.tvmaze.com ',
+  BASE_URL: 'https://api.tvmaze.com',
 }
