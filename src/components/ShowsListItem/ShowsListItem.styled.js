@@ -3,8 +3,6 @@ import styled from '@emotion/styled'
 export const Li = styled.li`
   display: flex;
   justify-content: space-between;
-  width: 964px;
-  height: 490px;
   margin-bottom: 20px;
   padding: 10px;
 
@@ -22,13 +20,11 @@ export const Li = styled.li`
 `
 
 export const Img = styled.img`
-  height: 100%;
-  width: 100%;
+  width: 200px;
 `
 
 export const ImgWrapper = styled.div`
-  max-width: 960px;
-  min-width: 320px;
+  min-width: 200px;
   border-radius: 4px;
   overflow: hidden;
 `
