@@ -7,7 +7,6 @@ export const Backdrop = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  overflow-y: scroll;
 `
 
 export const Content = styled.div`
@@ -16,10 +15,11 @@ export const Content = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   min-height: 100px;
-  max-width: 600px;
+  max-width: 620px;
   width: 100%;
-  padding: 18px;
-  overflow: hidden;
+  height: -webkit-fill-available;
+  overflow-y: scroll;
+  padding: 24px;
 
   background-color: #fff;
   border-radius: 3px;

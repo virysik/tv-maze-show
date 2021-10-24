@@ -3,9 +3,6 @@ import styled from '@emotion/styled'
 export const Ul = styled.ul`
   display: flex;
   flex-wrap: wrap;
-
-  margin-bottom: -10px;
-  margin-right: -10px;
 `
 export const Li = styled.li`
   margin-top: 10px;
@@ -27,8 +24,8 @@ export const Link = styled.a`
 
 export const Btn = styled.button`
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 0px;
+  right: -4px;
 
   border: none;
   background-color: transparent;
@@ -39,4 +36,10 @@ export const Btn = styled.button`
   :focus {
     transform: scale(1.2);
   }
+`
+
+export const ImgWrapper = styled.div`
+  width: 100px;
+  border-radius: 4px;
+  overflow: hidden;
 `
